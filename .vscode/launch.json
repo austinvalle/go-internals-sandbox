@@ -9,8 +9,8 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}",
-            "args": ["--", "./testdata/log/main.go"]
+            "program": "${workspaceFolder}/cmd/av-linter/main.go",
+            "args": ["--", "${workspaceFolder}/testdata/structfields/main.go"]
         }
     ]
 }
